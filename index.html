@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title>Lihua Guo</title>
+
+<head>
+    <!--<link rel="icon"
+  href="https://www.dropbox.com/s/jiaoiuj0jeyur3k/pilea-revised.JPG?raw=1">-->
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="website.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif;
+    }
+
+    body,
+    html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+    }
+
+    .website-wide {
+        letter-spacing: 10px;
+    }
+
+    .website-hover-opacity {
+        cursor: pointer;
+    }
+
+    /* look into this ... not sure if i need it or not */
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1600px) {
+
+        .img-1,
+        .img-2,
+        .img-3,
+        .img-4 {
+            background-attachment: scroll;
+            min-height: 400px;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- Container (About Section) -->
+    <div class="website-content website-container" id="about">
+        <h3 class="website-center">Lihua Guo</h3>
+        <div class="website-row">
+            <!-- <div class="website-col m6 website-padding-medium">-->
+            <div class="website-content website-container website-center ">
+                <img src="pics/avatar.jpg" class="website-round website-image" alt="Photo of Me" width="300"
+                    height="333">
+            </div>
+            <div class="website-content website-container website-center ">
+                                <p>
+                    I'm a first-year master student in software engineering at Tsinghua University advised by <a href="https://sites.google.com/site/jiangyu198964/home">Prof. Yu Jiang</a> since September 2022.
+                    Before that, I received my bachelor degree from Nanjing University in June 2022.
+                    My research interest includes ransomware defense, software fuzzing etc. 
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Publication pic -->
+    <!--<div class="website-display-container">
+  <div class="website-display-middle">
+      <span class="website-xxlarge website-text-white
+     website-wide">PUBLICATIONS</span>
+  </div>
+</div>
+-->
+    <!-- Container (Publications Section) -->
+    <div class="website-content website-container website-padding-16" id="publications">
+        <!--<p class="website-center"><em>INSERT TEXT (?)</em></p>-->
+
+        <p>
+            <li>
+                Chijin Zhou, Quan Zhang, Mingzhe Wang, <b style="color: black;">Lihua Guo</b>, Jie Liang, Zhe Liu, Mathias Payer, Yu Jiang.
+                <a href="http://wingtecher.com/themes/WingTecherResearch/assets/papers/FSE22_Minerva.pdf">Minerva: Browser API Fuzzing with Dynamic Mod-Ref Analysis.</a>
+                (ESEC/FSE’22, <span style="color: red;"><b>Distinguished Paper Award</b></span>)
+            </li>
+        </p>
+
+        <!-- <p>
+            <li><b style="color: black;"> Julia M. Markel</b> and Philip J. Guo. <a
+                    href=https://pg.ucsd.edu/publications/cs-undergrad-lab-tutoring-experiences_SIGCSE-2021.pdf> Inside
+                    the Mind of a CS Undergraduate TA: A Firsthand Account of Undergraduate Peer Tutoring in Computer
+                    Labs.</a> ACM Technical Symposium on Computer Science Education (SIGCSE), 2021. <font
+                    color="#DD0000">Best Paper Award</font>
+            </li>
+        </p>
+
+        <p>
+            <li><b style="color: black;"> Julia M. Markel </b> and Philip J. Guo. <a
+                    href="https://pg.ucsd.edu/publications/future-of-experiential-learning-environments_NFW-2020.pdf">Designing
+                    the Future of Experiential Learning Environments for a Post-COVID World: A Preliminary Case
+                    Study.</a> Symposium on the New Future of Work, 2020
+                <a href="https://cacm.acm.org/blogs/blog-cacm/248046-the-pros-and-cons-of-online-lab-classes-for-computer-science-2020-pandemic-edition/fulltext
+"> (Blog post summary) </a>
+            </li>
+        </p>
+
+        <p>
+            <li> C. Ailie Fraser, <b style="color: black;"> Julia M. Markel</b>, N.
+                James Basa, Mira Dontcheva, Scott Klemmer. <a href="papers/ReMap_UIST_2020.pdf">ReMap: Lowering the
+                    Barrier to Help-Seeking with Multimodal Search.</a> ACM
+                Symposium on User Interface Software and Technology (UIST), 2020.</li>
+        </p>
+
+        <p>
+            <li> Sam Lau, Ian Drosos, <b style="color: black;"> Julia M. Markel</b>, Philip J. Guo. <a
+                    href="https://pg.ucsd.edu/publications/computational-notebooks-design-space_VLHCC-2020.pdf">The
+                    Design Space of Computational Notebooks: An Analysis of 60 Systems in Academia and Industry.</a>
+                IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 2020.
+            </li>
+        </p>
+
+        <p>
+            <li>Priyan Vaithilingam, <b style="color: black;"> Julia M. Markel</b>,
+                Philip J. Guo. <a
+                    href="https://pg.ucsd.edu/publications/Papercode-printing-code-on-paper_UIST-2020-poster.pdf">Papercode:
+                    Generating Paper-Based User Interfaces for Code Review, Annotation, and
+                    Teaching.</a> ACM Symposium on User Interface Software and Technology (UIST) (poster), 2020.
+            </li>
+        </p>
+
+        <p>
+            <li>C. Ailie Fraser, <b style="color: black;"> Julia M. Markel</b>, N. James
+                Basa, Mira Dontcheva, and Scott Klemmer. <a href="papers/ReMap_UIST2019_demo.pdf"> ReMap:
+                    Multimodal Help-Seeking.</a> ACM Symposium on User Interface Software and Technology (UIST)
+                (poster), 2019.
+            </li>
+        </p>
+
+        <p>
+            <li>Philip J. Guo, <b style="color: black;"> Julia M. Markel</b>, Xiong Zhang. <a
+                    href="https://pg.ucsd.edu/publications/learnersourcing-at-scale-python-tutor_LAS-2020-WIP.pdf">Learnersourcing
+                    at Scale to Overcome Expert Blind Spots for Introductory Programming: A Three-Year Deployment Study
+                    on the Python Tutor Website.</a> ACM Conference on Learning at Scale (work-in-progress), 2020.
+            </li>
+        </p> -->
+
+    </div>
+
+    <!-- Contact pic -->
+    <div class=" website-display-container ">
+        <div class="website-display-middle">
+            <!--     <span class="website-xxlarge website-text-white website-wide">CONTACT</span>
+ -->
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="website-content website-container " id="contact">
+        <!--  <h3 class="website-center">CONTACT ME</h3>-->
+
+        <div class="website-row website-padding-16 website-section">
+            <div class="website-col m4 website-container">
+                <!--<img src="https://www.dropbox.com/s/wasbv17kxn8aph7/plants-revised.JPG?raw=1" class="website-image website-round" style="width:100%">-->
+            </div>
+            <div class="website-col website-center">
+                <div class="website-large website-margin-bottom">
+                    <i class="fa fa-envelope"></i> garyglh@163.com<br>
+                    <!-- <i class="fa fa-google website-hover-opacity"></i> <a
+                        href="https://scholar.google.com/citations?user=gCSOfKsAAAAJ&hl=en">Google
+                        Scholar</a><br> -->
+                    <i class="fa fa-github website-hover-opacity"></i> <a
+                        href="https://github.com/GaryHua226">GitHub</a><br>
+                    <!-- <i class="fa fa-twitter website-hover-opacity"></i> <a
+                        href="https://twitter.com/juliamaemarkel">Twitter</a><br>
+                    <i class="fa fa-linkedin website-hover-opacity"></i> <a
+                        href="https://www.linkedin.com/in/juliamaemarkel/">LinkedIn</a><br> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
